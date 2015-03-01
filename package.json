@@ -1,0 +1,19 @@
+{
+  "name": "yaml-frontmatter-loader",
+  "version": "0.0.1",
+  "description": "Yaml frontmatter loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "yaml",
+    "frontmatter"
+  ],
+  "author": "eldh",
+  "license": "MIT",
+  "dependencies": {
+    "yaml-front-matter": "^3.2.3"
+  }
+}
