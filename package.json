@@ -15,5 +15,13 @@
   "license": "MIT",
   "dependencies": {
     "yaml-front-matter": "^3.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eldh/yaml-frontmatter-loader.git"
+  },
+  "homepage": "https://github.com/eldh/yaml-frontmatter-loader",
+  "bugs": {
+    "url": "https://github.com/eldh/yaml-frontmatter-loader/issues"
   }
 }
