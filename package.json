@@ -1,6 +1,6 @@
 {
   "name": "yaml-frontmatter-loader",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Yaml frontmatter loader for webpack",
   "main": "src/index.js",
   "scripts": {
