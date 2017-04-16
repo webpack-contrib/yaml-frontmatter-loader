@@ -12,7 +12,7 @@ YAML Frontmatter loader for [webpack](http://webpack.github.io/). Converts YAML 
 
 ``` javascript
 
-var json = require("json!yaml-frontmatter-loader!./file.md");
+var json = require("json-loader!yaml-frontmatter-loader!./file.md");
 // => returns file.md as javascript object
 ```
 
