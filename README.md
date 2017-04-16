@@ -1,6 +1,6 @@
 # yaml-frontmatter-loader for webpack
 
-YAML Frontmatter loader for [webpack](http://webpack.github.io/). Converts YAML in files to JSON. You should chain it with [json-loader](https://github.com/webpack/json-loader).
+YAML Frontmatter loader for [webpack](https://webpack.js.org/). Converts YAML in files to JSON. You should chain it with [json-loader](https://github.com/webpack/json-loader).
 
 ## Installation
 
@@ -8,7 +8,7 @@ YAML Frontmatter loader for [webpack](http://webpack.github.io/). Converts YAML 
 
 ## Usage
 
-[Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
+[Documentation: Using loaders](https://webpack.js.org/concepts/loaders/)
 
 ``` javascript
 
