@@ -1,21 +1,61 @@
-# yaml-frontmatter-loader for webpack
+[![npm][npm]][npm-url]
+[![node][node]][node-url]
+[![deps][deps]][deps-url]
+[![tests][tests]][tests-url]
+[![coverage][cover]][cover-url]
+[![chat][chat]][chat-url]
 
-YAML Frontmatter loader for [webpack](http://webpack.github.io/). Converts YAML in files to JSON. You should chain it with [json-loader](https://github.com/webpack/json-loader).
+<div align="center">
+  <a href="https://github.com/webpack/webpack">
+    <img width="200" height="200"
+      src="https://webpack.js.org/assets/icon-square-big.svg">
+  </a>
+  <h1>YAML Formatter Loader</h1>
+</div>
 
-## Installation
+YAML Frontmatter loader for [webpack](https://webpack.js.org/). Converts YAML in files to JSON. You should chain it with [json-loader](https://github.com/webpack/json-loader).
+
+<h2 align="center">Install</h2>
 
 `npm install yaml-frontmatter-loader`
 
-## Usage
+<h2 align="center"><a href="https://webpack.js.org/concepts/loaders/">Usage</a></h2>
 
-[Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
-
-``` javascript
-
-var json = require("json!yaml-frontmatter-loader!./file.md");
+```js
+var json = require("json-loader!yaml-frontmatter-loader!./file.md");
 // => returns file.md as javascript object
 ```
 
-## License
+### Configuration
 
-MIT (http://www.opensource.org/licenses/mit-license.php)
+**webpack.config.js**
+```js
+module.exports = {
+  module: {
+    rules: [
+      {
+         test: /\.md$/,
+         use: [ 'json-loader', 'yaml-fontmatter-loader' ]
+      }
+    ]
+  }
+}
+```
+
+[npm]: https://img.shields.io/npm/v/yaml-fontmatter-loader.svg
+[npm-url]: https://npmjs.com/package/yaml-fontmatter-loader
+
+[node]: https://img.shields.io/node/v/yaml-fontmatter-loader.svg
+[node-url]: https://nodejs.org
+
+[deps]: https://david-dm.org/webpack-contrib/yaml-fontmatter-loader.svg
+[deps-url]: https://david-dm.org/webpack-contrib/yaml-fontmatter-loader
+
+[tests]: http://img.shields.io/travis/webpack-contrib/yaml-fontmatter-loader.svg
+[tests-url]: https://travis-ci.org/webpack-contrib/yaml-fontmatter-loader
+
+[cover]: https://codecov.io/gh/webpack-contrib/yaml-fontmatter-loader/branch/master/graph/badge.svg
+[cover-url]: https://codecov.io/gh/webpack-contrib/yaml-fontmatter-loader
+
+[chat]: https://badges.gitter.im/webpack/webpack.svg
+[chat-url]: https://gitter.im/webpack/webpack
