@@ -10,7 +10,7 @@
     <img width="200" height="200"
       src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
-  <h1>YAML Formatter Loader</h1>
+  <h1>YAML Frontmatter Loader</h1>
 </div>
 
 YAML Frontmatter loader for [webpack](https://webpack.js.org/). Converts YAML in files to JSON. You should chain it with [json-loader](https://github.com/webpack/json-loader).
