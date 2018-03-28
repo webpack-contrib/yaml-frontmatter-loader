@@ -3,3 +3,18 @@ node_modules
 /npm-debug.log
 
 .editorconfig
+logs
+*.log
+npm-debug.log*
+.eslintcache
+/coverage
+/dist
+/local
+/reports
+/node_modules
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
